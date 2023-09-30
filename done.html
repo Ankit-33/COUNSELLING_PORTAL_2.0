@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Done Symbol</title>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		.done-symbol {
+			font-size: 100px;
+			color: green;
+			display: inline-block;
+			border: 2px solid green;
+			border-radius: 50%;
+			width: 120px;
+			height: 120px;
+			line-height: 1;
+			text-align: center;
+			vertical-align: middle;
+			box-sizing: border-box;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		.done-symbol::before {
+			content: "\2714";
+		}
+	</style>
+</head>
+<body>
+	<div class="done-symbol"></div>
+	<h1>DONE!</h1>
+</body>
+</html>

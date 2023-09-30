@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>STUDENT COUNSELLING SESSION BOOKING </title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom right, #0077b6, #00b4d8);
+        margin: 0;
+      }
+      .container {
+        background: linear-gradient(to bottom, #ffcc00, #ff6666);
+        width: 80%;
+        margin: 50px auto;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        text-align: center;
+        margin: 0 0 50px;
+        font-size: 36px;
+        color: #fff;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 10px;
+      }
+
+      th {
+        background-color: #0077b6;
+        color: white;
+      }
+
+      tr:nth-child(even) {
+        background-color: #fff;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+
+      td:last-child {
+        text-align: center;
+      }
+
+      .book-btn {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+      }
+
+      .book-btn:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>STUDENT COUNSELLING SESSION BOOKING</h1>
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Time</th>
+          <th>Availability</th>
+          <th>Book</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>10:00am - 12:00pm</td>
+          <td>Not Available</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>2:00pm - 4:00pm</td>
+          <td>Available</td>
+          <td><button class="book-btn">Book</button></td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>9:00am - 11:00am</td>
+          <td>Available</td>
+          <td><button class="book-btn">Book</button></td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>1:00pm - 3:00pm</td>
+          <td>Not Available</td>
+          <td></td>
+        </tr>
+            <td>Friday</td>
+            <td>11:00am - 1:00pm</td>
+            <td>Available</td>
+            <td><button class="book-btn">Book</button></td>
+          </tr>
+        </table>
+      </body>
+    </html>
+    

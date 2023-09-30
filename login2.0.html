@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #328f8a;
+        background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+      }
+      img {
+        max-height: 100px;
+        margin-right: 20px;
+      }
+      .login-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+
+      .form {
+        position: relative;
+        z-index: 1;
+        background: #FFFFFF;
+        max-width: 360px;
+        margin: auto;
+        padding: 45px;
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+      }
+      .form input {
+        outline: 0;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 14px;
+        border-radius: 4px;
+      }
+      .form button {
+        text-transform: uppercase;
+        outline: 0;
+        background-color: #328f8a;
+        background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      .form button:hover {
+        background-color: #45a049;
+      }
+      .form .message {
+        margin: 15px 0 0;
+        color: #b3b3b3;
+        font-size: 12px;
+      }
+      .form .message a {
+        color: #4CAF50;
+        text-decoration: none;
+      }
+      .form h2 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="#">
+          <img src="https://scet.berkeley.edu/wp-content/uploads/8.-SRM-Logo.png">
+        </a>
+      </div>
+    </header>
+    <div class="login-page">
+      <div class="form">
+        <h2>Login Page</h2>
+        <form action="file:///Users/ankitsinghdasauni/Desktop/sepm/student.html">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" placeholder="Enter username">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter password">
+          <button type="submit">Login as Student</button>
+        </form>
+        
+        <form action="file:///Users/ankitsinghdasauni/Desktop/sepm/faculty.html?">
+          <button type="submit">Login as Faculty</button>
+        </form></div></div></body></html>          
